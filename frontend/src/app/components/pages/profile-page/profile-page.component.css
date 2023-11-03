@@ -1,0 +1,25 @@
+.container {
+    width: fit-content;
+    margin: 100px auto
+}
+
+.content div {
+    padding: 2px!important;
+    max-height: 45px!important;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.content div p {
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 19px;
+    height: fit-content;
+}
+
+.content div h3 {
+    height: fit-content;
+    display: inline-block;
+    min-width: 120px;
+}
